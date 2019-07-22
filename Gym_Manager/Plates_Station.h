@@ -6,7 +6,10 @@ class Plates_Station
 {
     public:
         Plates_Station();
-        virtual ~Plates_Station();
+        ~Plates_Station();
+        void Draw(Ltexture* gRenderer);
+        int getNumberWeights();
+        void receiveWeight(Weights);
 
     protected:
 
