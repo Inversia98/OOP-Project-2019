@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>4</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>256</x>
+      <y>148</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Dumbells
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>248</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Misc_Station
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>752</x>
+      <y>548</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Buttons
+--
+- x,y:int
+- word:string
+- stringLength:int
+- characterArray:Character*
+--
++ Word()
++ Word(string String, Letexture* image, float Float)
++ ~Word()
++ getLength():int
++ getArray():Character*
++ Render(SDL_Renderer* gRenderer, bool debug):void
++ mouseEvents(SDL_Event&amp;, Ltexture&amp;, int&amp;):int
++ getX():int
++ getY():int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>444</x>
+      <y>500</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Game_Screen
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>500</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>End_Screen
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>328</x>
+      <y>500</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Main_Screen
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>208</x>
+      <y>500</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Splash_Screen
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>804</x>
+      <y>0</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Gym_User
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>148</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Dumbell_Station
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>244</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Misc_Object
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>332</x>
+      <y>8</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Node
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>352</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Plates
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>272</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Weights
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>676</x>
+      <y>4</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Player
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>140</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Rods_Station
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>140</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Rods
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>84</x>
+      <y>500</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Screens
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>52</x>
+      <y>16</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Songs
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>376</x>
+      <y>364</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Stations
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>832</x>
+      <y>416</y>
+      <w>160</w>
+      <h>124</h>
+    </coordinates>
+    <panel_attributes>Character
+--
+- position:Point
+- character_value:int
+- width:int
+- height:int
+- spriteClips:SDL_Rect
+- spriteSheetTexture:Ltexture*
+--
+Character()
+Character(LTexture* image, float x, float y, char Char)
++ ~Character():virtual
++ Render(SDL_Renderer* gRenderer, bool debug):vitual void
++ SetPosition(Point&amp;):void
++ SetPosition(int, int):void
++ GetFrameWidth():int
++ GetFrameHeight():int
++ valueChecker():void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>112</x>
+      <y>352</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Plates_Station
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>268</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Weight_Station
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>532</x>
+      <y>104</y>
+      <w>124</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>List
+--
+- head:Node*
+- tail:Node*
+- length:int
+--
++ List(Ltexture*)
++ ~List()
++ void insertFirst(int element)
+void insertLast(int element)
+void insertAfter(int old, int element)
+void deleteFirst()
+void deleteLast()
+void deleteItem(int element)
+node* searchItem(int element)
+void printList()
+void printReverse()
+void makereverse()
+int dltfrst()
+int dltlast()
+void leftRotate(int x)
+void rightRotate(int x)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>744</x>
+      <y>416</y>
+      <w>84</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Point
+--
+- x,y:int
+--
++ Point()
++ Point(int, int)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>124</y>
+      <w>252</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Gym_Game
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
