@@ -14,6 +14,7 @@
 				<Compiler>
 					<Add option="-g" />
 					<Add directory="../Gym_Manager" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -24,6 +25,7 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add directory="../Gym_Manager" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -44,8 +46,6 @@
 		<Unit filename="End_Screen.h" />
 		<Unit filename="Game_screen.cpp" />
 		<Unit filename="Game_screen.h" />
-		<Unit filename="Gym_Game.cpp" />
-		<Unit filename="Gym_Game.h" />
 		<Unit filename="Gym_User.cpp" />
 		<Unit filename="Gym_User.h" />
 		<Unit filename="Main_Screen.cpp" />
@@ -68,15 +68,18 @@
 		<Unit filename="Screens.h" />
 		<Unit filename="Songs.cpp" />
 		<Unit filename="Songs.h" />
+		<Unit filename="Splash_Screen.h" />
 		<Unit filename="Start_screen.cpp" />
 		<Unit filename="Start_screen.h" />
-		<Unit filename="Stations.cpp" />
-		<Unit filename="Stations.h" />
 		<Unit filename="Weight_Station.cpp" />
 		<Unit filename="Weight_Station.h" />
 		<Unit filename="Weights .cpp" />
 		<Unit filename="Weights .h" />
+		<Unit filename="include/Load_Screen.h" />
+		<Unit filename="include/Pause_Screen.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Load_Screen.cpp" />
+		<Unit filename="src/Pause_Screen.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
