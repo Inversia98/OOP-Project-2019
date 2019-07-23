@@ -4,13 +4,16 @@
 
 class Player
 {
-    public:
-        Player();
-        virtual ~Player();
+private:
+    int cursorX;
+    int cursorY;
+    bool rightbuttonstate;
+    bool leftbuttonstate;
+    bool active;
+    static Player p;
 
-    protected:
-
-    private:
+public:
+    static Player getInstance();
 };
 
 #endif // PLAYER_H

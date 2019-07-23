@@ -1,6 +1,8 @@
 #ifndef MISC_STATION_H
 #define MISC_STATION_H
 
+#include "Ltexture.h"
+#include <SDL2/SDL.h>
 
 class Misc_Station
 {

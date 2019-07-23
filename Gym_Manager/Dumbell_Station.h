@@ -1,6 +1,8 @@
 #ifndef DUMBELL_STATION_H
 #define DUMBELL_STATION_H
 
+#include "Ltexture.h"
+#include <SDL2/SDL.h>
 
 class Dumbell_Station
 {

@@ -9,8 +9,8 @@
 #include <SDL_image.h>
 #include <stdio.h>
 #include <iostream>
-#include"LTexture.h"
-#include"Point.h"
+#include "LTexture.h"
+#include "Point.h"
 #include "Character.h"
 
 class Button
