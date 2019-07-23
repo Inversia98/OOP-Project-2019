@@ -6,7 +6,10 @@ class Rod_Station
 {
     public:
         Rod_Station();
-        virtual ~Rod_Station();
+        ~Rod_Station();
+        void Draw(Ltexture* gRenderer);
+        int getNumberWeights();
+        void receiveWeights(Weights);
 
     protected:
 

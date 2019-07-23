@@ -6,7 +6,10 @@ class Dumbell_Station
 {
     public:
         Dumbell_Station();
-        virtual ~Dumbell_Station();
+        ~Dumbell_Station();
+        void Draw(Ltexture* gRenderer);
+        int getNumberWeights();
+        void receiveWeight(Weights);
 
     protected:
 
