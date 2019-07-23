@@ -4,13 +4,14 @@
 
 class Songs
 {
-    public:
-        Songs();
-        virtual ~Songs();
+private:
+    Mix_Chunk* songs0;
 
-    protected:
-
-    private:
+public:
+    Songs();
+    Songs(string);
+    ~Songs();
+    void Play();
 };
 
 #endif // SONGS_H

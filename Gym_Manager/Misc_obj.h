@@ -1,16 +1,18 @@
 #ifndef MISC_OBJ_H
 #define MISC_OBJ_H
 
+#include "Weights.h"
+#include "Ltexture.h"
+#include <SDL2/SDL.h>
 
-class Misc_obj
+class Misc_obj: public Weights, protected Weights
 {
-    public:
-        Misc_obj();
-        virtual ~Misc_obj();
-
-    protected:
-
-    private:
+public:
+    Weights();
+    ~Weights();
+    virtual void render(SDL_Renderer* gRenderer);
+    virtual void reduceWeight();
+    virtual void addWegihtl();
 };
 
 #endif // MISC_OBJ_H

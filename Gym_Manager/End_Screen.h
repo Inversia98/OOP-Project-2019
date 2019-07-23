@@ -1,16 +1,34 @@
 #ifndef END_SCREEN_H
 #define END_SCREEN_H
 
+#include "Ltexture.h"
+#include "Buttons.h"
+#include "Score.h"
+#include <SDL2/SDL.h>
 
 class End_Screen
 {
-    public:
-        End_Screen();
-        virtual ~End_Screen();
+protected:
+    float x;
+    float y;
+    int width;
+    int height;
+    Button score;
+    Score points;
 
-    protected:
+    SDL_Rect spriteClips[FLYING_FRAMES];
+    LTexture* spriteSheetTexture;
 
-    private:
+public:
+    End_Screen();
+    End_Screen(LTexture* image, float x, float y, LTexture*);
+    virtual ~End_Screen();
+    int GetWidth();
+    int GetHeight();
+    float GetX();
+    float GetY();
+    virtual void Render(long int& frame, SDL_Renderer* gRenderer, bool debug, SDL_Event& e, LTexture& gSpriteSheetTextureWorld, int& state);
+
 };
 
 #endif // END_SCREEN_H

@@ -1,6 +1,8 @@
 #ifndef ROD_STATION_H
 #define ROD_STATION_H
 
+#include "Ltexture.h"
+#include <SDL2/SDL.h>
 
 class Rod_Station
 {

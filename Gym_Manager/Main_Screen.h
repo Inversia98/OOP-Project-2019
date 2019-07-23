@@ -7,38 +7,36 @@
 #include <SDL_image.h>
 #include <stdio.h>
 #include <iostream>
-#include"LTexture.h"
-#include "Word.h"
+#include "LTexture.h"
+#include "Buttons.h"
 
 using namespace std;
 
 
 
-class MainMenu
+class Main_Screen
 {
     protected:
         float x;
         float y;
         int width;
         int height;
-        Word start;
-        Word load;
-        Word quit;
+        Button start;
+        Button load;
+        Button quit;
 
-        enum ANIMATION_FRAMES {FLYING_FRAMES = 7};
-        SDL_Rect spriteClips[ FLYING_FRAMES ];
-        LTexture* spriteSheetTexture;
+        SDL_Rect spriteClips[FLYING_FRAMES];
+        Ltexture* spriteSheetTexture;
 
     public:
-        MainMenu(LTexture* image, float x, float y, LTexture*);
-        MainMenu();
-        virtual ~MainMenu();
+        Main_Screen(LTexture* image, float x, float y, LTexture*);
+        Main_Screen();
+        virtual ~Main_Screen();
         int GetWidth();
         int GetHeight();
         float GetX();
         float GetY();
-        virtual void Render(long int& frame, SDL_Renderer* gRenderer, bool debug, SDL_Event& e, LTexture& gSpriteSheetTexturew, int& state, int&);
-};
+        virtual void Render(long int& frame, SDL_Renderer* gRenderer, bool debug, SDL_Event& e, LTexture& gSpriteSheetTextureWorld, int& state);
 
 
 #endif // MAIN_SCREEN_H

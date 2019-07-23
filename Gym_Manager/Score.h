@@ -1,16 +1,21 @@
 #ifndef SCORE_H
 #define SCORE_H
 
+#include "Ltexture.h"
+#include <SDL2/SDL.h>
+#include "Buttons.h"
 
 class Score
 {
-    public:
-        Score();
-        virtual ~Score();
+private:
+    int points;
+    Button score;
 
-    protected:
-
-    private:
+public:
+    Score();
+    void scoreIncrease();
+    void render(SDL_Renderer* gRenderer);
+    void setPoint();
 };
 
 #endif // SCORE_H

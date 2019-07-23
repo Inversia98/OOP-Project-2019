@@ -82,12 +82,11 @@
 		<Unit filename="Songs.h" />
 		<Unit filename="Splash_Screen.cpp" />
 		<Unit filename="Splash_Screen.h" />
-		<Unit filename="Start_screen.cpp" />
-		<Unit filename="Start_screen.h" />
 		<Unit filename="Weight_Station.cpp" />
 		<Unit filename="Weight_Station.h" />
 		<Unit filename="Weights .cpp" />
-		<Unit filename="Weights .h" />
+		<Unit filename="Weights.cpp" />
+		<Unit filename="Weights.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

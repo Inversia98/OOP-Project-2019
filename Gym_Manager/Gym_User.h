@@ -1,16 +1,25 @@
 #ifndef GYM_USER_H
 #define GYM_USER_H
 
+#include "Ltexture.h"
+#include <SDL2/SDL.h>
 
 class Gym_User
 {
-    public:
-        Gym_User();
-        virtual ~Gym_User();
+private:
+    bool isActive;
+    int currentWeights;
+    int length;
+    int width;
+    SDL_Rect spriteclips;
+    LTexture* spritesheetTexture;
 
-    protected:
-
-    private:
+public:
+    Gym_User();
+    ~Gym_User();
+    void render(LTexture* gRenderer);
+    void pickWeights();
+    void dropWeights();
 };
 
 #endif // GYM_USER_H
