@@ -4,11 +4,18 @@
 #include "Ltexture.h"
 #include "Buttons.h"
 #include "Score.h"
+#ifdef __APPLE__
 #include <SDL2/SDL.h>
+#include <SDL2_image/SDL_image.h>
+#else
+#include <SDL.h>
+#include <SDL_image.h>
+#endif
 
 class End_Screen
 {
 protected:
+
     float x;
     float y;
     int width;
