@@ -12,6 +12,9 @@ class Dumbells: public Weights
 public:
 //    Weights();
 //    ~Weights();
+    Dumbells();
+    ~Dumbells();
+
     void render(SDL_Renderer* gRenderer);
     void reduceWeight();
     void addWeight();

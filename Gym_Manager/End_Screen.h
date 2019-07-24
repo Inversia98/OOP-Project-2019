@@ -18,7 +18,7 @@ protected:
     Button score;
     Score points;
 
-    SDL_Rect spriteClips[FLYING_FRAMES];
+    SDL_Rect spriteClips[FLYING_FRAMES = 7];
     LTexture* spriteSheetTexture;
 
 public:

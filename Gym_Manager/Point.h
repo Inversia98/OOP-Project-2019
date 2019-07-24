@@ -1,13 +1,11 @@
 #ifndef POINT_H_INCLUDED
 #define POINT_H_INCLUDED
 
-class Point
+struct Point
 {
-private:
     int x;
     int y;
 
-public:
     Point();
     Point(int, int);
 };

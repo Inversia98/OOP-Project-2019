@@ -8,8 +8,8 @@
 class Misc_obj: public Weights, protected Weights
 {
 public:
-    Weights();
-    ~Weights();
+    Misc_obj();
+    ~Misc_obj();
     virtual void render(SDL_Renderer* gRenderer);
     virtual void reduceWeight();
     virtual void addWegihtl();

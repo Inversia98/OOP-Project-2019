@@ -363,3 +363,65 @@
 	<SDL_image.h>
 	<stdio.h>
 
+1563776765 source:c:\users\smaha\desktop\oop project\oop-project-2019\gym_manager\dumbell_station.cpp
+	"Dumbell_Station.h"
+
+1563951763 c:\users\smaha\desktop\oop project\oop-project-2019\gym_manager\dumbell_station.h
+	"LTexture.h"
+	"Weights.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\gym_manager\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1563951764 c:\users\smaha\desktop\oop project\oop-project-2019\gym_manager\weights.h
+	"LTexture.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1563953141 source:c:\users\smaha\desktop\oop project\oop-project-2019\gym_manager\buttons.cpp
+	"Buttons.h"
+	<iostream>
+	"Buttons.h"
+	"LTexture.h"
+
+1563951763 c:\users\smaha\desktop\oop project\oop-project-2019\gym_manager\buttons.h
+	"Character.h"
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	"Character.h"
+
+1563951763 c:\users\smaha\desktop\oop project\oop-project-2019\gym_manager\character.h
+	"LTexture.h"
+	"Point.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1563952917 c:\users\smaha\desktop\oop project\oop-project-2019\gym_manager\point.h
+
+1563951763 source:c:\users\smaha\desktop\oop project\oop-project-2019\gym_manager\character.cpp
+	"Character.h"
+	<iostream>
+
+1563776765 source:c:\users\smaha\desktop\oop project\oop-project-2019\gym_manager\dumbells.cpp
+	"Dumbells.h"
+
+1563953314 c:\users\smaha\desktop\oop project\oop-project-2019\gym_manager\dumbells.h
+	"LTexture.h"
+	"Weights.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+

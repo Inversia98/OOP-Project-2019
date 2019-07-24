@@ -1340,3 +1340,183 @@
 	"Word.h"
 	"LTexture.h"
 
+1563776765 source:c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\background.cpp
+	"Background.h"
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\background.h
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"gameobject.h"
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\gameobject.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1563776765 source:c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\character.cpp
+	"Character.h"
+	<iostream>
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\point.h
+
+1563776765 source:c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\enemies.cpp
+	"enemies.h"
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\enemies.h
+	"gameobject.h"
+	"Unit.h"
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\unit.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"gameobject.h"
+
+1563776765 source:c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\gameobject.cpp
+	"gameobject.h"
+
+1563776765 source:c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\loadscreen.cpp
+	"LoadScreen.h"
+	"Word.h"
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\loadscreen.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Word.h"
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\word.h
+	"Character.h"
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	"Character.h"
+
+1563776765 source:c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\ltexture.cpp
+	"LTexture.h"
+
+1563951523 source:c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"windows.h"
+	"LTexture.h"
+	"Queue.h"
+	"Unit.h"
+	"Background.h"
+	"gameobject.h"
+	"Word.h"
+	"Character.h"
+	"MainMenu.h"
+	"LoadScreen.h"
+	"PauseMenu.h"
+	"SplashScreen.h"
+	"enemies.h"
+	"Health.h"
+	"Score.h"
+	"DeathScreen.h"
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\queue.h
+	"Node.h"
+	"Character.h"
+	"Health.h"
+	"Score.h"
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\node.h
+	"Unit.h"
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\health.h
+	"LTexture.h"
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\score.h
+	"Word.h"
+	<string>
+	"LTexture.h"
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\mainmenu.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Word.h"
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\pausemenu.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Word.h"
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\splashscreen.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"windows.h"
+	"LTexture.h"
+	"Word.h"
+
+1563776765 c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\deathscreen.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Word.h"
+	"Score.h"
+
+1563776765 source:c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\mainmenu.cpp
+	"MainMenu.h"
+	"Word.h"
+
+1563776765 source:c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\pausemenu.cpp
+	"PauseMenu.h"
+	"Word.h"
+
+1563776765 source:c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\queue.cpp
+	"Queue.h"
+	<iostream>
+
+1563776765 source:c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\splashscreen.cpp
+	"SplashScreen.h"
+	"Word.h"
+
+1563776765 source:c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\unit.cpp
+	"Unit.h"
+
+1563776765 source:c:\users\smaha\desktop\oop project\oop-project-2019\oop project 16 july\word.cpp
+	<iostream>
+	"Word.h"
+	"LTexture.h"
+

@@ -17,7 +17,7 @@ Button::Button(std::string String, LTexture* image, float x, float y)       //Bu
     characterArray = new Character[button.length()];                      //a dynamic array is declared of size of the Button
     for (int i = 0;(unsigned) i < button.length(); i++)                   //a loop is set to load all char as character types
     {                                                                   //within the array
-        characterArray[i] = Character(image,(x + (i * 30)), y, Button[i]);        //we also create spacing so that letters dont
+        characterArray[i] = Character(image,(x + (i * 30)), y, button[i]);        //we also create spacing so that letters dont
     }                                                                           //coincide
 
 }
@@ -29,7 +29,7 @@ Button::~Button()       //Destructor
 
 void Button::Render(SDL_Renderer* gRenderer, bool debug)              //Render function for Button type
 {
-    for (int i = 0; (unsigned) i < Button.length(); i++)              //at each itteration 1 character is rendered
+    for (int i = 0; (unsigned) i < button.length(); i++)              //at each itteration 1 character is rendered
     {
         characterArray[i].Render(gRenderer, debug);
     }
@@ -110,7 +110,7 @@ int Button::mouseEvents(SDL_Event& e, LTexture& gSpriteSheetTexturew, int &state
 
 int Button::getLength()                           //Get length of string Button
 {
-    return Button.length();
+    return button.length();
 }
 
 

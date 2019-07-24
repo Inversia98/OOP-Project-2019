@@ -8,8 +8,8 @@
 class Plates: public Weights, protected Weights
 {
 public:
-   Weights();
-   ~Weights();
+   Plates();
+   ~Plates();
    virtual void render(SDL_Renderer* gRenderer);
    virtual void reduceWeight();
    virtual void addWegihtl();
