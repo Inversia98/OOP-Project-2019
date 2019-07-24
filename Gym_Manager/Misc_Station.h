@@ -11,7 +11,7 @@ class Misc_Station
         ~Misc_Station();
         void Draw(Ltexture* gRenderer);
         int getNumberWeights();
-        void receiveWeight(Weights);
+       // void receiveWeight(Weights);
 
 
     protected:
