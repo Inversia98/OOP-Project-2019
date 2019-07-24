@@ -1,7 +1,7 @@
 #ifndef LOAD_SCREEN_H
 #define LOAD_SCREEN_H
 
-#include "Ltexture.h"
+#include "LTexture.h"
 #include <SDL2/SDL.h>
 #include "Buttons.h"
 
@@ -22,7 +22,7 @@ protected:
 
 public:
     Load_Screen();
-    Load_Screen(LTexture* image, float x, float y, Ltexture*)
+    Load_Screen(LTexture* image, float x, float y, LTexture*)
     virtual ~Load_Screen();
     int GetWidth();
     int GetHeight();

@@ -1,7 +1,7 @@
 #ifndef SPLASH_SCREEN_H
 #define SPLASH_SCREEN_H
 
-#include "Ltexture.h"
+#include "LTexture.h"
 #include <SDL2/SDL.h>
 #include "Buttons.h"
 
@@ -19,7 +19,7 @@ protected:
 
 public:
     Splash_Screen();
-    Splash_Screen(LTexture* image, float x, float y, Ltexture*);
+    Splash_Screen(LTexture* image, float x, float y, LTexture*);
     virtual ~Splash_Screen();
     int GetWidth();
     int GetHeight();

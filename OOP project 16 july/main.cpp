@@ -421,6 +421,7 @@ bool loadMedia()
         printf( "Failed to load sprite sheet texture!\n" );
         success = false;
     }
+
     return success;
 }
 

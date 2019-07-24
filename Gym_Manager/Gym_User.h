@@ -1,7 +1,7 @@
 #ifndef GYM_USER_H
 #define GYM_USER_H
 
-#include "Ltexture.h"
+#include "LTexture.h"
 #include <SDL2/SDL.h>
 
 class Gym_User

@@ -1,7 +1,7 @@
 #ifndef ROD_STATION_H
 #define ROD_STATION_H
 
-#include "Ltexture.h"
+#include "LTexture.h"
 #include <SDL2/SDL.h>
 
 class Rod_Station
@@ -9,7 +9,7 @@ class Rod_Station
     public:
         Rod_Station();
         ~Rod_Station();
-        void Draw(Ltexture* gRenderer);
+        void Draw(LTexture* gRenderer);
         int getNumberWeights();
         void receiveWeights(Weights);
 
