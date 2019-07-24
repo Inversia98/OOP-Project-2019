@@ -1,6 +1,8 @@
 #ifndef SONGS_H
 #define SONGS_H
 
+#include <strings.h>
+
 
 class Songs
 {

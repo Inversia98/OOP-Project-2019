@@ -1,4 +1,12 @@
 #include "Load_Screen.h"
+#ifdef __APPLE__
+#include <SDL2/SDL.h>
+#include <SDL2_image/SDL_image.h>
+#else
+#include <SDL.h>
+#include <SDL_image.h>
+#endif
+#include"LTexture.h"
 
 Load_Screen::Load_Screen()
 {
@@ -10,7 +18,7 @@ Load_Screen::~Load_Screen()
     spriteSheetTexture = NULL;
 }
 
-Load_Screen:: Load_Screen(LTexture* image, float x, float y, Ltexture*)
+Load_Screen:: Load_Screen(LTexture* image, float x, float y, LTexture*)
 {
     spriteSheetTexture = image;
 
@@ -19,10 +27,10 @@ Load_Screen:: Load_Screen(LTexture* image, float x, float y, Ltexture*)
     spriteClips[0].w = 1240;
     spriteClips[0].h = 690;
 
-    Load1 = Button("Load 1", gspriteSheetTexturew, 455,200);
-    Load2 = Button("Load 2", gspriteSheetTexturew, 455,200);
-    Load3 = Button("Load 3", gspriteSheetTexturew, 455,200);
-    Back = Button("Back", gspriteSheetTexturew, 0,550);
+    Load1 = Button("Load 1", spriteSheetTexture, 455,200);
+    Load2 = Button("Load 2", spriteSheetTexture, 455,200);
+    Load3 = Button("Load 3", spriteSheetTexture, 455,200);
+    Back = Button("Back", spriteSheetTexture, 0,550);
 
 
 
@@ -54,7 +62,7 @@ void Load_Screen::Render(long int& frame, SDL_Renderer* gRenderer, bool debug, S
     if(debug == true)
     {
         SDL_Rect rect = {x - width/2, y - height/2, width, height};
-        SDL_SetRendererDrawColor(gRenderer, 0xFF, 0x00, 0x00, 0xFF);
+        SDL_SetRenderDrawColor(gRenderer, 0xFF, 0x00, 0x00, 0xFF);
         SDL_RenderDrawRect(gRenderer, &rect);
     }
 

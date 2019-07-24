@@ -5,7 +5,3 @@ Score::Score()
     //ctor
 }
 
-Score::~Score()
-{
-    //dtor
-}
