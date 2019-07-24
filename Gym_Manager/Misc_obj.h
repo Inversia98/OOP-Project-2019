@@ -2,7 +2,7 @@
 #define MISC_OBJ_H
 
 #include "Weights.h"
-#include "Ltexture.h"
+#include "LTexture.h"
 #include <SDL2/SDL.h>
 
 class Misc_obj: public Weights, protected Weights

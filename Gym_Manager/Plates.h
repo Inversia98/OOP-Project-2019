@@ -1,7 +1,7 @@
 #ifndef PLATES_H
 #define PLATES_H
 
-#include "Ltexture.h"
+#include "LTexture.h"
 #include <SDL2/SDL.h>
 #include "Weights.h"
 

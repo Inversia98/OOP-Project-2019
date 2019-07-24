@@ -2,7 +2,7 @@
 #define RODS_H
 
 #include "Weights.h"
-#include "Ltexture.h"
+#include "LTexture.h"
 #include <SDL2/SDL.h>
 
 class Rods: public Weights, protected Weights

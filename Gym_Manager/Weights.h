@@ -1,8 +1,10 @@
 #ifndef WEIGHTS_H
 #define WEIGHTS_H
 
-#include "Ltexture.h"
-#include <SDL2/SDL.h>
+#include "LTexture.h"
+#include <SDL.h>
+#include <SDL_image.h>
+#include <stdio.h>
 
 class Weights
 {

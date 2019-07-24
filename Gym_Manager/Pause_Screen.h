@@ -1,7 +1,7 @@
 #ifndef PAUSE_SCREEN_H_INCLUDED
 #define PAUSE_SCREEN_H_INCLUDED
 
-#include "Ltexture.h"
+#include "LTexture.h"
 #include <SDL2/SDL.h>
 #include "Buttons.h"
 
@@ -21,7 +21,7 @@ protected:
 
 public:
     Pause_Screen();
-    Pause_Screen(Ltexture* image, float x, float y, Ltexture*);
+    Pause_Screen(LTexture* image, float x, float y, LTexture*);
     virtual ~Pause_Screen();
     int GetWidth();
     int GetHeight();

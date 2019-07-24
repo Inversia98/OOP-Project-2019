@@ -1,7 +1,7 @@
 #ifndef MISC_STATION_H
 #define MISC_STATION_H
 
-#include "Ltexture.h"
+#include "LTexture.h"
 #include <SDL2/SDL.h>
 
 class Misc_Station
@@ -9,7 +9,7 @@ class Misc_Station
     public:
         Misc_Station();
         ~Misc_Station();
-        void Draw(Ltexture* gRenderer);
+        void Draw(LTexture* gRenderer);
         int getNumberWeights();
         void receiveWeight(Weights);
 

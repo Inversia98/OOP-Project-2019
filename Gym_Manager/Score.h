@@ -1,8 +1,10 @@
 #ifndef SCORE_H
 #define SCORE_H
 
-#include "Ltexture.h"
-#include <SDL2/SDL.h>
+#include "LTexture.h"
+#include <SDL.h>
+#include <SDL_image.h>
+#include <stdio.h>
 #include "Buttons.h"
 
 class Score

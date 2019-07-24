@@ -26,7 +26,7 @@ class Main_Screen
         Button quit;
 
         SDL_Rect spriteClips[FLYING_FRAMES];
-        Ltexture* spriteSheetTexture;
+        LTexture* spriteSheetTexture;
 
     public:
         Main_Screen(LTexture* image, float x, float y, LTexture*);

@@ -13,9 +13,9 @@ Button::Button(std::string String, LTexture* image, float x, float y)       //Bu
 {                                                                       //string being displayed, image, and the x y coordinates
     this->x = x;
     this->y = y;
-    Button = String;                                                      //string is stored in Button attribute
-    characterArray = new Character[Button.length()];                      //a dynamic array is declared of size of the Button
-    for (int i = 0;(unsigned) i < Button.length(); i++)                   //a loop is set to load all char as character types
+    button = String;                                                      //string is stored in Button attribute
+    characterArray = new Character[button.length()];                      //a dynamic array is declared of size of the Button
+    for (int i = 0;(unsigned) i < button.length(); i++)                   //a loop is set to load all char as character types
     {                                                                   //within the array
         characterArray[i] = Character(image,(x + (i * 30)), y, Button[i]);        //we also create spacing so that letters dont
     }                                                                           //coincide

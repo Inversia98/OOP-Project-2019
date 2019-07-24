@@ -1,7 +1,7 @@
 #ifndef GAME_SCREEN_H
 #define GAME_SCREEN_H
 
-#include "Ltexture.h"
+#include "LTexture.h"
 #include <SDL2/SDL.h>
 
 class Game_screen

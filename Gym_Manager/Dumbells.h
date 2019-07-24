@@ -1,20 +1,20 @@
 #ifndef DUMBELLS_H
 #define DUMBELLS_H
 
-#include "Ltexture.h"
+#include "LTexture.h"
 #include "Weights.h"
-#inclde <SDL2/SDL.h>
+#include <SDL.h>
+#include <SDL_image.h>
+#include <stdio.h>
 
-class Dumbells: public Weights, protected Weights
+class Dumbells: public Weights
 {
 public:
-    Weghts();
-    ~Weights();
+//    Weights();
+//    ~Weights();
     void render(SDL_Renderer* gRenderer);
     void reduceWeight();
     void addWeight();
-
-
 
 };
 

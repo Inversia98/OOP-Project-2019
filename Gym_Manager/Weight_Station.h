@@ -1,7 +1,7 @@
 #ifndef WEIGHT_STATION_H
 #define WEIGHT_STATION_H
 
-#include "Ltexture.h"
+#include "LTexture.h"
 #include <SDL2/SDL.h>
 
 class Weight_Station
@@ -9,7 +9,7 @@ class Weight_Station
     public:
         Weight_Station();
         ~Weight_Station();
-        virtual void Draw(Ltexture* gRenderer);
+        virtual void Draw(LTexture* gRenderer);
         virtual int getNumberWeights();
         virtual void receiveWeight(Weights);
 
@@ -23,7 +23,7 @@ class Weight_Station
         int length;
         int width;
         SDL_Rect spriteclips;
-        Ltexture spritesheetTexture;
+        LTexture spritesheetTexture;
 };
 
 #endif // WEIGHT_STATION_H

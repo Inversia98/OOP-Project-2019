@@ -27,7 +27,7 @@ public:
     int getY();
 private:
     int x,y;
-    std::string Button;                                               //String Button
+    std::string button;                                               //String Button
     int stringLength;                                               //length of Button
     Character* characterArray;                                      //Dynamic character array
 };

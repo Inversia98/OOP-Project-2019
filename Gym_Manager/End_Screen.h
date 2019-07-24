@@ -1,10 +1,12 @@
 #ifndef END_SCREEN_H
 #define END_SCREEN_H
 
-#include "Ltexture.h"
+#include "LTexture.h"
 #include "Buttons.h"
 #include "Score.h"
-#include <SDL2/SDL.h>
+#include <SDL.h>
+#include <SDL_image.h>
+#include <stdio.h>
 
 class End_Screen
 {

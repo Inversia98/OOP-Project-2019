@@ -1,8 +1,11 @@
 #ifndef CHARACTER_H
 #define CHARACTER_H
 
-#include "Ltexture.h"
-#include <SDL2/SDL.h>
+#include "LTexture.h"
+#include "Point.h"
+#include <SDL.h>
+#include <SDL_image.h>
+#include <stdio.h>
 
 class Character
 {
@@ -12,7 +15,7 @@ class Character
     int width;
     int height;
     SDL_Rect spriteClips;
-    Ltexture* spritesheetTexture;
+    LTexture* spriteSheetTexture;
 
  public:
 
