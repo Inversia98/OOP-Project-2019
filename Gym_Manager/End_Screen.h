@@ -1,7 +1,6 @@
 #ifndef END_SCREEN_H
 #define END_SCREEN_H
 
-#include "Ltexture.h"
 #include "LTexture.h"
 #include "Buttons.h"
 #include "Score.h"
