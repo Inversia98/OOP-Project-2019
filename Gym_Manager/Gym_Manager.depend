@@ -15,7 +15,7 @@
 	"LTexture.h"
 	"Point.h"
 
-1563952502 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\character.h
+1563954524 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\character.h
 	"Ltexture.h"
 	"Buttons.h"
 	"Point.h"
@@ -380,15 +380,15 @@
 	"begin_code.h"
 	"close_code.h"
 
-1563872297 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\point.h
+1563954524 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\point.h
 
-1563864863 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\character.cpp
+1563954524 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\character.cpp
 	"Character.h"
 
 1563777054 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\dumbell_station.cpp
 	"Dumbell_Station.h"
 
-1563952551 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\dumbell_station.h
+1563954524 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\dumbell_station.h
 	"Ltexture.h"
 	"Weights.h"
 	<SDL2/SDL.h>
@@ -396,7 +396,7 @@
 	<SDL.h>
 	<SDL_image.h>
 
-1563952557 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\weights.h
+1563954524 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\weights.h
 	"Ltexture.h"
 	<SDL2/SDL.h>
 	<SDL2_image/SDL_image.h>
@@ -406,7 +406,7 @@
 1563777054 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\dumbells.cpp
 	"Dumbells.h"
 
-1563952610 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\dumbells.h
+1563954524 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\dumbells.h
 	"Ltexture.h"
 	"Weights.h"
 	<SDL2/SDL.h>
