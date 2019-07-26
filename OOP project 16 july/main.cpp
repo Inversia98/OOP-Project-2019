@@ -20,7 +20,7 @@
 #include "Health.h"
 #include "Score.h"
 #include "DeathScreen.h"
-
+//#include "Images"
 using namespace std;
 
 //Pre defined screen width and height
@@ -406,7 +406,7 @@ bool loadMedia()
         printf( "Failed to load sprite sheet texture!\n" );
         success = false;
     }
-    if( !gSpriteSheetTextureSplash.LoadFromFile( "Images/Splash.png", gRenderer  ) )
+    if( !gSpriteSheetTextureSplash.LoadFromFile( "Splash.png", gRenderer  ) )
     {
         printf( "Failed to load sprite sheet texture!\n" );
         success = false;
