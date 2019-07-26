@@ -1,4 +1,42 @@
 # depslib dependency file v1.0
+1540998544 D
+
+1563952141 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\buttons.cpp
+	"Buttons.h"
+	<iostream>
+	"Buttons.h"
+	"LTexture.h"
+
+1563952460 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\buttons.h
+	"Character.h"
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+
+1563955476 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\character.h
+	"Ltexture.h"
+	"Buttons.h"
+	"Point.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+	"LTexture.h"
+	"Point.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1563951938 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\ltexture.h
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+
+1563951938 e/SDL_image.h>
+
 1563649563 source:c:\users\asad osman\desktop\oop project 2019\oop-project-2019\gym_manager\dumbell_station.cpp
 	"Dumbell_Station.h"
 
@@ -10,12 +48,12 @@
 	<stdio.h>
 
 1563948887 c:\users\asad osman\desktop\oop project 2019\oop-project-2019\gym_manager\ltexture.h
+
+1563953314 73ad891135b7388b5cc6f47b2b9e300a60d4f
 	<SDL.h>
 	<SDL_image.h>
 	<stdio.h>
 	<iostream>
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -47,13 +85,9 @@
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -81,35 +115,20 @@
 	<sal.h>
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_config.h
-	"SDL_platform.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_platform.h
 	"AvailabilityMacros.h"
 	"TargetConditionals.h"
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\begin_code.h
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\close_code.h
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_assert.h
 	"SDL_config.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
 	<mbarrier.h>
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -118,25 +137,17 @@
 	"SDL_rwops.h"
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_endian.h
 	"SDL_stdinc.h"
 	<endian.h>
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -146,19 +157,13 @@
 	<process.h>
 	<stdlib.h>
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
@@ -172,8 +177,6 @@
 	<pmmintrin.h>
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -186,30 +189,22 @@
 	"SDL_touch.h"
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
 	"SDL_surface.h"
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_pixels.h
 	"SDL_stdinc.h"
 	"SDL_endian.h"
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
 	"SDL_rwops.h"
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -217,18 +212,203 @@
 	"SDL_rwops.h"
 	"begin_code.h"
 	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
-	"begin_code.h"
-	"close_code.h"
-
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_main.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_main.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_platform.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_platform.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\close_code.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_assert.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\close_code.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_assert.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_audio.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_audio.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_error.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_error.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_endian.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_endian.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_thread.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_thread.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_events.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_events.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_video.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_video.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_rect.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_rect.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_surface.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_surface.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_mouse.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_keycode.h
 	"SDL_stdinc.h"
@@ -238,124 +418,138 @@
 	"SDL_stdinc.h"
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_mouse.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"SDL_video.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_joystick.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_joystick.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
-	"SDL_rwops.h"
-	"SDL_joystick.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_gesture.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_gesture.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"SDL_video.h"
-	"SDL_touch.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_touch.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_touch.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"SDL_video.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
-	"SDL_stdinc.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_haptic.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_haptic.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"SDL_joystick.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_hints.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_hints.h
-	"SDL_stdinc.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_loadso.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_loadso.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_log.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_log.h
-	"SDL_stdinc.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
-	"SDL_stdinc.h"
-	"SDL_video.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_power.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_power.h
-	"SDL_stdinc.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_render.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_render.h
-	"SDL_stdinc.h"
-	"SDL_rect.h"
-	"SDL_video.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_sensor.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_sensor.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_shape.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_shape.h
-	"SDL_stdinc.h"
-	"SDL_pixels.h"
-	"SDL_rect.h"
-	"SDL_surface.h"
-	"SDL_video.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_system.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_system.h
-	"SDL_stdinc.h"
-	"SDL_keyboard.h"
-	"SDL_render.h"
-	"SDL_video.h"
-	"begin_code.h"
-	"close_code.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_timer.h
 
 1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_timer.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
+
+1540998544 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_version.h
+
+1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_version.h
+
+1540997982 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\sdl2_image-2.0.4\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\mingw_dev_lib\i686-w64-mingw32\include\sdl2\sdl_version.h
-	"SDL_stdinc.h"
-	"begin_code.h"
-	"close_code.h"
+1563954887 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\point.h
+
+1563955525 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\character.cpp
+	"Character.h"
+	<iostream>
+	"LTexture.h"
+
+1563777054 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\dumbell_station.cpp
+	"Dumbell_Station.h"
+
+1563960527 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\dumbell_station.h
+	"Ltexture.h"
+	"Weights.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+	"LTexture.h"
+	"Weights.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1563960520 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\weights.h
+	"Ltexture.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+	"LTexture.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1563777054 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\dumbells.cpp
+	"Dumbells.h"
+
+1563960556 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\dumbells.h
+	"LTexture.h"
+	"Weights.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1563954524 .h>
 
 1563948887 c:\users\asad osman\desktop\oop project 2019\oop-project-2019\gym_manager\weights.h
 	"LTexture.h"
@@ -424,4 +618,195 @@
 	<SDL.h>
 	<SDL_image.h>
 	<stdio.h>
+
+1563777054 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\end_screen.cpp
+	"End_Screen.h"
+
+1563955660 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\end_screen.h
+	"LTexture.h"
+	"Buttons.h"
+	"Score.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1563955541 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\score.h
+	"Ltexture.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+	"LTexture.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	"Buttons.h"
+
+1563864172 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\game_objects.cpp
+
+1563777054 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\game_screen.cpp
+	"Game_screen.h"
+
+1563955736 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\game_screen.h
+	"LTexture.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+
+1563777054 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\gym_user.cpp
+	"Gym_User.h"
+
+1563955742 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\gym_user.h
+	"LTexture.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+
+1563955815 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\list.cpp
+	"List.h"
+
+1563874156 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\list.h
+	"Node.h"
+
+1563874404 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\node.h
+	"Game_Objects.h"
+
+1563955752 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\game_objects.h
+	"LTexture.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+
+1563956136 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\load_screen.cpp
+	"Load_Screen.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+	"LTexture.h"
+
+1563955896 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\load_screen.h
+	"LTexture.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+	"Buttons.h"
+
+1563864172 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\ltexture.cpp
+	"LTexture.h"
+
+1563958904 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\main.cpp
+	<iostream>
+	<stdlib.h>
+	<strings.h>
+	<time.h>
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+	"LTexture.h"
+	"Load_Screen.h"
+	"Buttons.h"
+	"End_Screen.h"
+
+1563960108 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\main_screen.cpp
+	"Main_Screen.h"
+	"Buttons.h"
+	"LTexture.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+
+1563960510 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\main_screen.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Buttons.h"
+
+1563777054 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\misc_obj.cpp
+	"Misc_obj.h"
+
+1563960631 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\misc_obj.h
+	"Weights.h"
+	"LTexture.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+
+1563777054 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\misc_station.cpp
+	"Misc_Station.h"
+
+1563960715 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\misc_station.h
+	"LTexture.h"
+	"Weights.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+
+1563864172 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\pause_screen.cpp
+
+1563777054 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\plates.cpp
+	"Plates.h"
+
+1563960731 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\plates.h
+	"LTexture.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+	"Weights.h"
+
+1563777054 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\plates_station.cpp
+	"Plates_Station.h"
+
+1563960777 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\plates_station.h
+	"LTexture.h"
+	"Weights.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+
+1563960822 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\player.cpp
+	"Player.h"
+
+1563872148 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\player.h
+
+1563777054 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\rod_station.cpp
+	"Rod_Station.h"
+
+1563960841 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\rod_station.h
+	"LTexture.h"
+	"Weights.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+
+1563777054 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\rods.cpp
+	"Rods.h"
+
+1563960894 e:\university\oopsummers\oop project\oop-project-2019\gym_manager\rods.h
+	"Weights.h"
+	"LTexture.h"
+	<SDL2/SDL.h>
+	<SDL2_image/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+
+1563960924 source:e:\university\oopsummers\oop project\oop-project-2019\gym_manager\score.cpp
+	"Score.h"
 

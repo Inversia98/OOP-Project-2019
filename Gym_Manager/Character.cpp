@@ -1,5 +1,6 @@
 #include"Character.h"
 #include<iostream>
+#include "LTexture.h"
 
 Character::Character()              //Constructor
 {
@@ -10,7 +11,7 @@ Character::Character()              //Constructor
 
 Character::Character(LTexture* image, float x, float y, char Char)  //Overloaded constructor which has the position and char to
 {                                                                   //be displayed
-    spriteSheetTexture = image;                     //Setting sprite sheet texture
+   spritesheetTexture = image;                     //Setting sprite sheet texture
     character_value = int (Char);                   //updating the ascii value by using the char
 
     //Frame 0
@@ -37,7 +38,7 @@ Character::~Character()                         //Destructor
 void Character::Render(SDL_Renderer* gRenderer, bool debug)     //Render function for character type
 {
 
-    spriteSheetTexture->Render( position.x - width / 2, position.y - height / 2, &spriteClips, 0.0, NULL, SDL_FLIP_NONE, gRenderer );
+    spritesheetTexture->Render( position.x - width / 2, position.y - height / 2, &spriteClips, 0.0, NULL, SDL_FLIP_NONE, gRenderer );
     if(debug == true)       //the positions are set for where to render and the sprites are already set
     {
         SDL_Rect rect = { position.x - width / 2, position.y - height / 2, width, height };

@@ -1,11 +1,28 @@
 #ifndef CHARACTER_H
 #define CHARACTER_H
 
+
+#include "Ltexture.h"
+#include "Buttons.h"
+#include "Point.h"
+#ifdef __APPLE__
+#include <SDL2/SDL.h>
+#include <SDL2_image/SDL_image.h>
+#else
+#include <SDL.h>
+#include <SDL_image.h>
+#endif
+
+class Button;
+
+using namespace std;
+
 #include "LTexture.h"
 #include "Point.h"
 #include <SDL.h>
 #include <SDL_image.h>
 #include <stdio.h>
+
 
 class Character
 {
@@ -15,7 +32,8 @@ class Character
     int width;
     int height;
     SDL_Rect spriteClips;
-    LTexture* spriteSheetTexture;
+
+    LTexture* spritesheetTexture;
 
  public:
 

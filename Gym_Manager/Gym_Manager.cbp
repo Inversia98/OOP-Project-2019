@@ -13,8 +13,14 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="../Gym_Manager" />
+					<Add directory="E:/University/OOPSummers/OOP Project/OOP-Project-2019/Gym_Manager/SDL2_image-2.0.4/i686-w64-mingw32/include/SDL2" />
+					<Add directory="E:/University/OOPSummers/OOP Project/OOP-Project-2019/Gym_Manager/SDL2-2.0.9/i686-w64-mingw32/include/SDL2" />
 				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDL2main -lSDL2" />
+					<Add directory="E:/University/OOPSummers/OOP Project/OOP-Project-2019/Gym_Manager/SDL2_image-2.0.4/i686-w64-mingw32/lib" />
+					<Add directory="E:/University/OOPSummers/OOP Project/OOP-Project-2019/Gym_Manager/SDL2-2.0.9/i686-w64-mingw32/lib" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/Gym_Manager" prefix_auto="1" extension_auto="1" />
@@ -86,7 +92,6 @@
 		<Unit filename="Start_screen.h" />
 		<Unit filename="Weight_Station.cpp" />
 		<Unit filename="Weight_Station.h" />
-		<Unit filename="Weights .cpp" />
 		<Unit filename="Weights.cpp" />
 		<Unit filename="Weights.h" />
 		<Unit filename="main.cpp" />

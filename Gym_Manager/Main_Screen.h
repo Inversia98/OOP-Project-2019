@@ -25,18 +25,17 @@ class Main_Screen
         Button load;
         Button quit;
 
-        SDL_Rect spriteClips[FLYING_FRAMES];
+        SDL_Rect spriteClips[7];
         LTexture* spriteSheetTexture;
 
     public:
-        Main_Screen(LTexture* image, float x, float y, LTexture*);
         Main_Screen();
+        Main_Screen(LTexture* image, float x, float y, LTexture*);
         virtual ~Main_Screen();
         int GetWidth();
         int GetHeight();
         float GetX();
         float GetY();
         virtual void Render(long int& frame, SDL_Renderer* gRenderer, bool debug, SDL_Event& e, LTexture& gSpriteSheetTextureWorld, int& state);
-
-
+};
 #endif // MAIN_SCREEN_H
