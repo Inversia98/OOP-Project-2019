@@ -4,13 +4,24 @@
 #include "LTexture.h"
 #include "Buttons.h"
 #include "Score.h"
+
+#ifdef __APPLE__
+#include <SDL2/SDL.h>
+#include <SDL2_image/SDL_image.h>
+#else
+#include <SDL.h>
+#include <SDL_image.h>
+#endif
+
 #include <SDL.h>
 #include <SDL_image.h>
 #include <stdio.h>
 
+
 class End_Screen
 {
 protected:
+
     float x;
     float y;
     int width;
@@ -18,7 +29,10 @@ protected:
     Button score;
     Score points;
 
+<<<<<<< HEAD
     SDL_Rect spriteClips[FLYING_FRAMES];
+=======
+>>>>>>> b8fe3a2ef6a92e29328b0b8c83a591b933e9cda7
     LTexture* spriteSheetTexture;
 
 public:
