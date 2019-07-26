@@ -1,0 +1,240 @@
+# depslib dependency file v1.0
+1564038821 source:c:\users\smaha\desktop\oopasad\artistik\background.cpp
+	"Background.h"
+
+1531896000 c:\users\smaha\desktop\oopasad\artistik\background.h
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"gameobject.h"
+
+1476082008 c:\users\smaha\desktop\oopasad\artistik\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1531894734 c:\users\smaha\desktop\oopasad\artistik\gameobject.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1531214206 source:c:\users\smaha\desktop\oopasad\artistik\bullet.cpp
+	"Bullet.h"
+
+1476167002 c:\users\smaha\desktop\oopasad\artistik\bullet.h
+	"Unit.h"
+
+1531894408 c:\users\smaha\desktop\oopasad\artistik\unit.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"gameobject.h"
+
+1531405010 source:c:\users\smaha\desktop\oopasad\artistik\character.cpp
+	"Character.h"
+	<iostream>
+
+1530697136 c:\users\smaha\desktop\oopasad\artistik\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+
+1507880986 c:\users\smaha\desktop\oopasad\artistik\point.h
+
+1531839062 source:c:\users\smaha\desktop\oopasad\artistik\deathscreen.cpp
+	"DeathScreen.h"
+	"Word.h"
+
+1531837424 c:\users\smaha\desktop\oopasad\artistik\deathscreen.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Word.h"
+	"Score.h"
+
+1531515138 c:\users\smaha\desktop\oopasad\artistik\word.h
+	"Character.h"
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	"Character.h"
+
+1563969742 c:\users\smaha\desktop\oopasad\artistik\score.h
+	"Word.h"
+	"string.h"
+	"LTexture.h"
+	<cstdlib>
+
+1531993328 source:c:\users\smaha\desktop\oopasad\artistik\enemies.cpp
+	"enemies.h"
+
+1531894574 c:\users\smaha\desktop\oopasad\artistik\enemies.h
+	"gameobject.h"
+	"Unit.h"
+
+1531302920 source:c:\users\smaha\desktop\oopasad\artistik\enemy.cpp
+	"Enemy.h"
+
+1476167002 c:\users\smaha\desktop\oopasad\artistik\enemy.h
+	"Unit.h"
+
+1531195906 source:c:\users\smaha\desktop\oopasad\artistik\explosion.cpp
+	"Explosion.h"
+
+1530320446 c:\users\smaha\desktop\oopasad\artistik\explosion.h
+	"Unit.h"
+
+1531993328 source:c:\users\smaha\desktop\oopasad\artistik\gameobject.cpp
+	"gameobject.h"
+
+1531808488 source:c:\users\smaha\desktop\oopasad\artistik\health.cpp
+	"Health.h"
+
+1531836150 c:\users\smaha\desktop\oopasad\artistik\health.h
+	"LTexture.h"
+
+1531727858 source:c:\users\smaha\desktop\oopasad\artistik\loadscreen.cpp
+	"LoadScreen.h"
+	"Word.h"
+
+1531552964 c:\users\smaha\desktop\oopasad\artistik\loadscreen.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Word.h"
+
+1531303650 source:c:\users\smaha\desktop\oopasad\artistik\ltexture.cpp
+	"LTexture.h"
+
+1564042294 source:c:\users\smaha\desktop\oopasad\artistik\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<cstdio>
+	<iostream>
+	<cstdlib>
+	<time.h>
+	"windows.h"
+	"LTexture.h"
+	"Queue.h"
+	"Unit.h"
+	"Background.h"
+	"gameobject.h"
+	"Word.h"
+	"Character.h"
+	"MainMenu.h"
+	"LoadScreen.h"
+	"PauseMenu.h"
+	"SplashScreen.h"
+	"enemies.h"
+	"Health.h"
+	"Score.h"
+	"DeathScreen.h"
+	"Clock.h"
+	<windows.h>
+	<mmsystem.h>
+	<ctime>
+
+1531895798 c:\users\smaha\desktop\oopasad\artistik\queue.h
+	"Node.h"
+	"Character.h"
+	"Health.h"
+	"Score.h"
+
+1531680310 c:\users\smaha\desktop\oopasad\artistik\node.h
+	"Unit.h"
+
+1563971530 c:\users\smaha\desktop\oopasad\artistik\mainmenu.h
+	<SDL.h>
+	<SDL_image.h>
+	<cstdlib>
+	<cstdio>
+	<iostream>
+	"LTexture.h"
+	"Word.h"
+
+1531526072 c:\users\smaha\desktop\oopasad\artistik\pausemenu.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Word.h"
+
+1531989792 c:\users\smaha\desktop\oopasad\artistik\splashscreen.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"windows.h"
+	"LTexture.h"
+	"Word.h"
+
+1563972639 source:c:\users\smaha\desktop\oopasad\artistik\mainmenu.cpp
+	"MainMenu.h"
+	"Word.h"
+
+1531751340 source:c:\users\smaha\desktop\oopasad\artistik\pausemenu.cpp
+	"PauseMenu.h"
+	"Word.h"
+
+1563969904 source:c:\users\smaha\desktop\oopasad\artistik\queue.cpp
+	"Queue.h"
+	<iostream>
+	<windows.h>
+	<mmsystem.h>
+
+1563971904 source:c:\users\smaha\desktop\oopasad\artistik\splashscreen.cpp
+	"SplashScreen.h"
+	"Word.h"
+
+1531896188 source:c:\users\smaha\desktop\oopasad\artistik\unit.cpp
+	"Unit.h"
+
+1531804430 source:c:\users\smaha\desktop\oopasad\artistik\word.cpp
+	<iostream>
+	"Word.h"
+	"LTexture.h"
+
+1564038650 source:c:\users\smaha\desktop\oopasad\artistik\score.cpp
+	"Score.h"
+	<string>
+	<sstream>
+
+1564042220 source:c:\users\smaha\desktop\oopasad\artistik\clock.cpp
+	"Clock.h"
+	<string>
+	<sstream>
+
+1564147403 c:\users\smaha\desktop\oopasad\artistik\clock.h
+	"Word.h"
+	"string.h"
+	"LTexture.h"
+	<cstdlib>
+	<cstdio>
+	<ctime>
+
+1564124328 source:c:\users\smaha\desktop\oopasad\artistik\weights.cpp
+	"Weights.h"
+
+1564128040 c:\users\smaha\desktop\oopasad\artistik\weights.h
+	"LTexture.h"
+	<SDL.h>
+	<SDL_image.h>
+

@@ -3,7 +3,7 @@
 #include <SDL_image.h>
 #include <stdio.h>
 #include <iostream>
-#include"LTexture.h"
+#include "LTexture.h"
 #include "Word.h"
 
 using namespace std;

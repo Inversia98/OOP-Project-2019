@@ -1,0 +1,464 @@
+#include <SDL.h>
+#include <SDL_image.h>
+#include <cstdio>
+#include <iostream>
+#include <cstdlib>
+#include <time.h>
+#include "windows.h"
+#include "LTexture.h"
+#include "Queue.h"
+#include "Unit.h"
+#include "Background.h"
+#include "gameobject.h"
+#include "Word.h"
+#include "Character.h"
+#include "MainMenu.h"
+#include "LoadScreen.h"
+#include "PauseMenu.h"
+#include "SplashScreen.h"
+#include "enemies.h"
+#include "Health.h"
+#include "Score.h"
+#include "DeathScreen.h"
+#include "Clock.h"
+#include <windows.h>
+#include <mmsystem.h>
+#include <ctime>
+using namespace std;
+
+//Pre defined screen width and height
+const int SCREEN_WIDTH = 1024;
+const int SCREEN_HEIGHT = 600;
+
+bool init();
+
+bool loadMedia();
+
+void close();
+
+SDL_Window* gWindow = NULL;
+
+SDL_Renderer* gRenderer = NULL;
+
+LTexture gSpriteSheetTexture;
+LTexture gSpriteSheetTexture1;
+LTexture gSpriteSheetTexturew;
+LTexture gSpriteSheetTexturem;
+LTexture gSpriteSheetTextureSplash2;
+LTexture gSpriteSheetTexture2;
+LTexture gSpriteSheetTextureDeath;
+LTexture gSpriteSheetTexturepause;
+//LTexture gSpriteSheetTexture3;
+
+bool init();
+bool loadMedia();
+void close();
+bool spaceBar=false;
+int spacebarDetected=0;
+
+int main( int argc, char* args[] )
+{
+
+    int s = -1;
+    int& state = s;
+    int k = 0;
+    int& kills = k;
+    //Start up SDL and create window
+    if( !init() )
+    {
+
+        printf( "Failed to initialize!\n" );
+    }
+    else
+    {
+        //Load media
+        if( !loadMedia() )
+        {
+            printf( "Failed to load media!\n" );
+        }
+        else
+        {
+
+            bool quit = false;                      //Main loop flag
+
+            SDL_Event e;                            //Event handler
+
+            long int frame = 0;                     //Current animation frame
+//            int bulletDelay = 0;
+
+            cout<<"before"<<endl;
+            MainMenu* background = new MainMenu(&gSpriteSheetTexturem, (float)SCREEN_WIDTH/2, (float)SCREEN_HEIGHT/2, &gSpriteSheetTexturew);
+            LoadScreen* loadscreen = new LoadScreen(&gSpriteSheetTexturem, (float)SCREEN_WIDTH/2, (float)SCREEN_HEIGHT/2, &gSpriteSheetTexturew);
+            PauseMenu* pauseMenu = new PauseMenu(&gSpriteSheetTexturepause, (float)SCREEN_WIDTH/2, (float)SCREEN_HEIGHT/2, &gSpriteSheetTexturew);
+            SplashScreen* splash = new SplashScreen(&gSpriteSheetTextureSplash2, (float)SCREEN_WIDTH/2, (float)SCREEN_HEIGHT/2, &gSpriteSheetTexturew);
+            DeathScreen* death = new DeathScreen(&gSpriteSheetTextureDeath, (float)SCREEN_WIDTH/2, (float)SCREEN_HEIGHT/2, &gSpriteSheetTexturew, kills);
+
+            Health health;
+            Score score(kills);
+            Clock clock;
+            cout<<"after"<<endl;
+
+            srand (time(NULL));
+
+
+            int random = 0;
+
+            Queue objectList(&gSpriteSheetTexturew);
+            Unit* hero = new Unit(&gSpriteSheetTexture, (float)52, (float)545);
+            Background* ptr2 = new Background(&gSpriteSheetTexture1, 0, 0);
+            //enemies* enemy = NULL;
+
+
+
+            int leftright = 0;
+            int tmp = 0;
+            int noenemies = tmp;
+            bool phasingright=true;
+            bool music = true;
+            bool musicstop = true;
+
+            while( !quit )                          //While application is running
+            {
+                if(frame%60 == 0)
+                {
+                   // if(noenemies < 3)
+                    //{
+//                        random = 1 + rand() % 4;
+//                        enemy = new enemies(&gSpriteSheetTexture2, 1200,510);
+//                        objectList.Enqueue(enemy);
+//                        noenemies = noenemies+1;
+//                        objectList.Render(frame, gRenderer, false);
+                    //}
+                }
+                while( SDL_PollEvent( &e ) != 0 )
+                {
+
+
+
+
+                    if( e.type == SDL_QUIT )
+                    {
+                        quit = true;
+                    }
+
+
+                }
+                frame++;
+
+                if (state == -2)
+                {
+                    SDL_RenderClear( gRenderer );
+                    score.Render(gRenderer, &gSpriteSheetTexturew);
+                    death->Render(frame, gRenderer, false, e, gSpriteSheetTexturew, kills);
+                    SDL_RenderPresent(gRenderer);
+                    SDL_Delay(3000);
+                    objectList.QueueDelete();
+                    //health.setHealth();
+                    noenemies = 0;
+                    score.setKills();
+                    state = 0;
+
+                }
+
+                if (state == -1)
+                {
+                    SDL_RenderClear( gRenderer );
+                    splash->Render(frame, gRenderer, false, e, gSpriteSheetTexturew, state);
+                    SDL_RenderPresent(gRenderer);
+                    SDL_Delay(3000);
+                    state = 0;
+
+                }
+
+                if (state == 0)
+                {
+                    if(music)
+                    {
+                        //PlaySound(TEXT("C:\\Users\\Sanie Hamid Hanfi\\Desktop\\OOP project 16 july up\\sound\\1.wav"),NULL, SND_ASYNC|SND_FILENAME);
+                        music = false;
+                    }
+                    SDL_RenderClear( gRenderer );
+                    background->Render(frame, gRenderer, false, e, gSpriteSheetTexturew, state, kills);
+                    cout<< "kill:"<<kills<<endl;
+                }
+
+                if (state == 3)
+                {
+                    SDL_RenderClear( gRenderer );
+                    loadscreen->Render(frame, gRenderer, false, e, gSpriteSheetTexturew, state);
+                }
+
+                if (state == 4)
+                {
+                    pauseMenu->Render(frame, gRenderer, false, e, gSpriteSheetTexturew, state);
+                    if (state == 0)
+                    {
+                        objectList.QueueDelete();
+                        score.setKills();
+                        kills = 0;
+                        noenemies = 0;
+                        //health.setHealth();
+                    }
+                }
+
+                if (state == 1)
+                {
+                    if(musicstop)
+                    {
+                       // PlaySound(NULL,NULL,SND_ASYNC|SND_FILENAME);
+                        musicstop = false;
+                    }
+                    background->~MainMenu();
+                    ptr2->Render(frame,gRenderer,false);
+                    const Uint8* currentKeyStates = SDL_GetKeyboardState( NULL );
+                   // health.Render(gRenderer);
+                    score.Render(gRenderer, &gSpriteSheetTexturew);
+                    clock.Render(gRenderer, &gSpriteSheetTexturew);
+                    if (clock.getSeconds() <= 0)
+                    {
+                        state = -2;
+                    }
+
+
+                   if (health.getHealth() == 0)
+                    {
+                        state = -2;
+                    }
+
+//                    if(currentKeyStates[ SDL_SCANCODE_RIGHT ] && hero->GetY() >= 545)
+//                    {
+//
+//
+//                        if(hero->GetX() < SCREEN_WIDTH-20)
+//                        {
+//
+//                            hero->Move(RIGHT);
+//                            phasingright = true;
+//                            leftright = 0;
+//                        }
+//
+//                    }
+
+//                    else if(currentKeyStates[ SDL_SCANCODE_LEFT ] && hero->GetY() >= 545)
+//                    {
+//                        if(hero->GetX()>20)
+//                        {
+//                            hero->Move(LEFT);
+//                            leftright = 1;
+//                            phasingright=false;
+//                        }
+//                    }
+
+//                    else if((currentKeyStates[ SDL_SCANCODE_SPACE  ] && spacebarDetected<=18 ))
+//                    {
+//                        spacebarDetected++;
+//                        hero->Move(UP);
+//                    }
+
+
+                    else
+                    {
+//
+//                        if(hero->GetY()<545)
+//                        {
+//
+//                            hero->Move(DOWN);
+//
+//                        }
+//
+//                        if(hero->GetY() >= 545)
+//                        {
+//
+//                            spacebarDetected = 0;
+//
+//
+//                        }
+
+
+                        leftright = 3;
+                    }
+
+                    Word pause("PAUSE", &gSpriteSheetTexturew, 50, 50);
+                    int p = pause.mouseEvents(e, gSpriteSheetTexturew, state);
+                    pause.Render(gRenderer, false);
+                    if (p == 1)
+                    {
+                        state = 4;
+                    }
+
+
+//                    if (leftright == 0)
+//                        hero->Render1(frame, gRenderer, false);
+//                    if (leftright == 1)
+//                        hero->Render2(frame, gRenderer, false);
+//                    if (leftright == 3 && phasingright)
+//                    {
+//                        hero->Render(frame,gRenderer,false);
+//                    }
+//                    if (leftright == 3 && !phasingright)
+//                    {
+//                        hero->Render4(frame,gRenderer,false);
+//                    }
+//
+//
+//
+//
+//                    hero->Render5(frame,gRenderer,false);
+
+
+
+
+//                    if (objectList.getHead() != NULL)
+//                    {
+//                        objectList.personAttack(hero, currentKeyStates, score, e, noenemies);
+//                        objectList.enemyAttack(hero, health);
+//                        objectList.Collision(hero);
+//                        objectList.Render(frame, gRenderer, false);
+//                    }
+                }
+
+
+                SDL_RenderPresent( gRenderer );
+                ++frame;
+
+
+
+            }
+           // delete enemy;
+            //delete hero;
+            delete splash;
+            delete background;
+            delete death;
+            delete pauseMenu;
+            delete loadscreen;
+        }
+    }
+
+    close();
+
+    return 0;
+}
+
+bool init()
+{
+
+    bool success = true;
+
+    if( SDL_Init( SDL_INIT_VIDEO ) < 0 )
+    {
+        printf( "SDL could not initialize! SDL Error: %s\n", SDL_GetError() );
+        success = false;
+    }
+    else
+    {
+        //Set texture filtering to linear
+        if( !SDL_SetHint( SDL_HINT_RENDER_SCALE_QUALITY, "1" ) )
+        {
+            printf( "Warning: Linear texture filtering not enabled!" );
+        }
+
+        //Create window
+        gWindow = SDL_CreateWindow( "SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
+        if( gWindow == NULL )
+        {
+            printf( "Window could not be created! SDL Error: %s\n", SDL_GetError() );
+            success = false;
+        }
+        else
+        {
+            //Create renderer for window
+            gRenderer = SDL_CreateRenderer( gWindow, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC );
+            if( gRenderer == NULL )
+            {
+                printf( "Renderer could not be created! SDL Error: %s\n", SDL_GetError() );
+                success = false;
+            }
+            else
+            {
+                //Initialize renderer color
+                SDL_SetRenderDrawColor( gRenderer, 0xFF, 0xFF, 0xFF, 0xFF );
+
+                //Initialize PNG loading
+                int imgFlags = IMG_INIT_PNG;
+                if( !( IMG_Init( imgFlags ) & imgFlags ) )
+                {
+                    printf( "SDL_image could not initialize! SDL_mage Error: %s\n", IMG_GetError() );
+                    success = false;
+                }
+            }
+        }
+    }
+
+    return success;
+}
+
+bool loadMedia()
+{
+    //Loading success flag
+    bool success = true;
+
+    //Load sprite sheet texture
+    if( !gSpriteSheetTexture.LoadFromFile( "Images/3.png", gRenderer  ) )
+    {
+        printf( "Failed to load sprite sheet texture!\n" );
+        success = false;
+    }
+
+    if( !gSpriteSheetTexture1.LoadFromFile( "Images/game.png", gRenderer  ) )
+    {
+        printf( "Failed to load sprite sheet texture!\n" );
+        success = false;
+    }
+    if( !gSpriteSheetTexturew.LoadFromFile( "Images/fontSprite.png", gRenderer  ) )
+    {
+        printf( "Failed to load sprite sheet texture!\n" );
+        success = false;
+    }
+    if( !gSpriteSheetTexturem.LoadFromFile( "Images/Splash2.png", gRenderer  ) )
+    {
+        printf( "Failed to load sprite sheet texture!\n" );
+        success = false;
+    }
+    if( !gSpriteSheetTextureSplash2.LoadFromFile( "Images/Splash2.png", gRenderer  ) )
+    {
+        printf( "Failed to load sprite sheet texture!\n" );
+        success = false;
+    }
+//    if( !gSpriteSheetTexture2.LoadFromFile( "Images/enemy.png", gRenderer  ) )
+//    {
+//        printf( "Failed to load sprite sheet texture!\n" );
+//        success = false;
+//    }
+    if( !gSpriteSheetTextureDeath.LoadFromFile( "Images/DeathScreen.png", gRenderer  ) )
+    {
+        printf( "Failed to load sprite sheet texture!\n" );
+        success = false;
+    }
+    if( !gSpriteSheetTexturepause.LoadFromFile( "Images/pause.png", gRenderer  ) )
+    {
+        printf( "Failed to load sprite sheet texture!\n" );
+        success = false;
+    }
+
+    return success;
+
+}
+
+void close()
+{
+    //Free loaded images
+    gSpriteSheetTexture.Free();
+    gSpriteSheetTexture1.Free();
+    gSpriteSheetTexturem.Free();
+    gSpriteSheetTexturew.Free();
+
+    //Destroy window
+    SDL_DestroyRenderer( gRenderer );
+    SDL_DestroyWindow( gWindow );
+    gWindow = NULL;
+    gRenderer = NULL;
+
+    //Quit SDL subsystems
+    IMG_Quit();
+    SDL_Quit();
+}

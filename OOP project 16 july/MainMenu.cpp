@@ -1,6 +1,6 @@
 #include "MainMenu.h"
 #include "Word.h"
-
+#include <cstdlib>
 MainMenu::MainMenu()
 {
 
