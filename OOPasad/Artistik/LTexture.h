@@ -11,6 +11,7 @@ class LTexture
         SDL_Texture* texture;
         int width;
         int height;
+	float scale;
     public:
         LTexture();
         ~LTexture();
