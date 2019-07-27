@@ -29,10 +29,7 @@ protected:
     Button score;
     Score points;
 
-<<<<<<< HEAD
     SDL_Rect spriteClips[FLYING_FRAMES];
-=======
->>>>>>> b8fe3a2ef6a92e29328b0b8c83a591b933e9cda7
     LTexture* spriteSheetTexture;
 
 public:
