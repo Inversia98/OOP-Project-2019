@@ -95,7 +95,7 @@ int LTexture::GetHeight()
 void LTexture::Render( int x, int y, SDL_Rect* clip , double angle, SDL_Point* center, SDL_RendererFlip flip, SDL_Renderer* gRenderer)
 {
     //Set rendering space and render to screen
-    SDL_Rect renderQuad = { x, y, width, height };
+    SDL_Rect renderQuad = { x, y, int(width*scale), int(height*scale) };
 
     //Set clip rendering dimensions
     if( clip != NULL )
